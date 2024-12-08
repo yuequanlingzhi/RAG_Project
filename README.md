@@ -18,6 +18,7 @@ pdf_dir = 'Final_Project_Documents/test' #YOUR_PDF_DIR_PATH
 代码中采用了简易的gpt2作为大模型，效果不咋样，可能还需要调整，或者到时候直接把prompt丢入现成的大模型，又或者人肉搜索检索出来的文段得到答案。
 
 可能需要安装的依赖
+***
 
 ```
 pip install transformers faiss-cpu sentence-transformers PyPDF2 
