@@ -9,6 +9,11 @@
 3. 将得到的文段作为prompt丢入大模型，让大模型输出问题的答案
 
  # 注意事项
+记得将Final_Project_Documents文件夹单独导入，路径随便，只要更改rag.ipynb中下面的代码就行了
+```
+pdf_dir = 'Final_Project_Documents/test' #YOUR_PDF_DIR_PATH
+```
+可以随便挑个小的pdf文件作为测试，放到新建的test文件夹中
 
 代码中采用了简易的gpt2作为大模型，效果不咋样，可能还需要调整，或者到时候直接把prompt丢入现成的大模型，又或者人肉搜索检索出来的文段得到答案。
 
