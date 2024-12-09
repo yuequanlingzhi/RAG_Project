@@ -52,7 +52,7 @@ pdf_texts = extract_text_from_pdfs(pdf_dir)
 
 len_min = 10 #随机片段的下限
 len_max = 64 #随机片段的上限r
-top_n = 10
+top_n = 5
 
 labeled_data = []
 
